@@ -7,9 +7,10 @@ La carpeta esta conformada por 4 modulos. Cada modulo incluye los trabajos que s
 <br></br>
 
 **1️⃣ Modulo** > Introducción a R. Operadores y Markdown
+**2️⃣ Modulo** > Analisis de Datos con Python
 
 <h2>💻 ¿Que utilice?</h2>
 
-**Lenguajes:** R, R Markdown, HTML <br></br>
+**Lenguajes:** R, R Markdown, HTML, Python <br></br>
 **Software:** RStudio <br></br>
 **Librerias:** ggplot2
