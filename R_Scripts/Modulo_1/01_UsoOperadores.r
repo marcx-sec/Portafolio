@@ -1,72 +1,72 @@
-# Variables de Tipo Numerico 
+# Variables de Tipo Numerico
 
-Edad <- 38 
-tipoCambio <- 520.87 
+Edad <- 38
+tipoCambio <- 520.87
 
-# Variables de tipo caracter 
+# Variables de tipo caracter
 
 nombreCliente <- "Marco"
 ApellidoCliente <- "Monge"
 
 
-# Variables de tipo logicas 
-#True o F (False)
+# Variables de tipo logicas
+# True o F (False)
 
-asisteEvento <- T 
+asisteEvento <- T
 
-# OPERADORES ARITMETICOS 
+# OPERADORES ARITMETICOS
 
 10 + 10
 10 - 10
 10 * 10
 10 / 10
-10 ^ 2
+10^2
 10 %% 10
 
-valor1 <- 15 
+valor1 <- 15
 valor2 <- 5
 
-valor1 + valor2 
+valor1 + valor2
 
 resultado <- valor1 + valor2
 resultado
 
-# Operadores condicionales 
+# Operadores condicionales
 
 10 > 5
 10 < 5
 10 == 6
-10 != 5 
+10 != 5
 10 >= 5
 10 <= 6
 
-resultadocomparacion <- valor1 > valor2 
+resultadocomparacion <- valor1 > valor2
 resultadocomparacion
 
-# Operadores relacionales 
+# Operadores relacionales
 
 10 > 5 & 10 < 30
 10 > 5 & 5 > 6
 
 10 > 5 | 5 > 6
 
-resultadoComparacionCound <- valor1 > 10 & valor2 < 30 
+resultadoComparacionCound <- valor1 > 10 & valor2 < 30
 resultadoComparacionCound
 
-# Union de operadores 
+# Union de operadores
 
-a <- 10 
+a <- 10
 b <- 6
 c <- 4
 
-(b + a) == 16 & (c*2) > 10 & (a+b+c) < 100
+(b + a) == 16 & (c * 2) > 10 & (a + b + c) < 100
 
-((b + a) == 16 & (a+b+c) < 100) | ((c*2)) > 10 
+((b + a) == 16 & (a + b + c) < 100) | ((c * 2)) > 10
 
-# Vectores 
+# Vectores
 
-numeros <- c(10,20,30,40,50,60,70,80,90,100)
-numeros2 <- c(10,20,30,40,50,60,70,80,90,100,102,103)
+numeros <- c(10, 20, 30, 40, 50, 60, 70, 80, 90, 100)
+numeros2 <- c(10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 102, 103)
 
 numeros2 + numeros
 numeros2 - numeros
@@ -76,14 +76,14 @@ numeros2 * numeros
 numeros[2]
 numeros[2:6]
 numeros[-5]
-numeros[c(2,5,8)]
-numeros[-c(1,6,3,9)]
+numeros[c(2, 5, 8)]
+numeros[-c(1, 6, 3, 9)]
 max(numeros)
 min(numeros)
 mean(numeros)
 
 nuevoVector <- numeros + 15
-nuevoVector 
+nuevoVector
 
 resultadoCondicion <- numeros < 55
 resultadoCondicion
@@ -99,8 +99,8 @@ resultadoCondicion
 
 sum(numerosAlazar[resultadoCondicion])
 
-vector1 <- c(1,2,3,4,5)
-vector2 <- c(6,7,8,9,10) 
+vector1 <- c(1, 2, 3, 4, 5)
+vector2 <- c(6, 7, 8, 9, 10)
 
 vector3 <- vector1 + vector2
 vector3
