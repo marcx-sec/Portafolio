@@ -1,0 +1,74 @@
+---
+title: "Hundimiento del RMS Titanic"
+author: "Marco Monge"
+date: "2025-06-28"
+output: 
+  html_document: 
+    toc: true
+    toc_depth: 5 
+    toc_float: yes
+    df_print: paged
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(ggplot2)
+```
+
+```{r Test, echo=FALSE}
+getwd()
+DatosTitanic <- read.csv("C:/Users/Marco/Documents/R Fidelitas/Titanic Para Tarea.csv", header = TRUE, sep = ",", dec = ".")
+```
+
+
+#### *En este Markdown vamos a visualizar datos correspondientes al hundimiento del RMS Titanic*
+# ¿Que era?
+#### Fue un transatlántico británico diseñado por los ingenieros navales Alexander Carlisle y Thomas Andrews y construido en los astilleros de Harland & Wolff (Belfast) para la compañía naviera White Star Line. Fue el segundo de los tres navíos que constituían la clase Olympic, junto a sus buques gemelos, el RMS Olympic y el HMHS Britannic. Fue en su momento el barco más grande y lujoso del mundo, superando incluso al Olympic, y el más moderno del mundo, incluso se afirmaba que era insumergible, hasta su hundimiento en 1912.
+
+
+
+# Fuentes e imagenes, Datos y graficos y Tabla {.tabset}
+## Fuentes e imagenes 
+#### **Fuentes**
+##### [Titanic - Wikipedia](https://es.wikipedia.org/wiki/RMS_Titanic)
+##### [Titanic - National Geographic](https://historia.nationalgeographic.com.es/a/historia-titanic-tragedia-barco-insumergible_16344)
+#### **Imagenes** 
+![](https://content-historia.nationalgeographic.com.es/medio/2023/06/20/the-steamship-titanic-rmg-bhc3667_00000000_9b5bd117_230620084335_1280x775.jpg)
+![](https://content-historia.nationalgeographic.com.es/medio/2022/05/02/olympic-titanic-y-britannic_de8fe1be_800x646.jpg)
+
+## Datos y Graficos
+#### **Cantidad de Pasajeros**
+```{r Cantidad, echo=FALSE}
+max(DatosTitanic$PassengerId)
+```
+#### **Cantidad de hombre y mujeres a bordo**
+```{r SEX, echo=FALSE}
+x <- table(DatosTitanic$Sex)
+print(x)
+pie(x, main = "Grafico Circular")
+```
+
+#### *Aqui se puede vizualizar que la cantidad de hombres es ligeramente superior a la cantidad de mujeres*
+
+#### **Cantidad de supervivientes y muertes** 
+
+```{r SM, echo=FALSE}
+y <- table(DatosTitanic$Survived)
+print(y)
+barplot(y, main = "Grafico de Barras", xlab = "Fallecidos y Supervivientes", ylab = "Cantidad")
+```
+
+#### *Se muestra la cantidad de fallecidos y supervivientes, siendo 0 = fallecido y 1 = superviviente*
+
+#### **La edad promedio fue de**
+```{r Edad, echo=FALSE}
+mean(DatosTitanic$Age, na.rm = TRUE)
+```
+
+
+
+## Tabla
+#### **Visualizacion**
+```{r Titanic, echo=FALSE}
+DatosTitanic
+```
