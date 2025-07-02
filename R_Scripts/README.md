@@ -11,6 +11,6 @@ La carpeta esta conformada por 4 modulos. Cada modulo incluye los trabajos que s
 
 <h2>💻 ¿Que utilice?</h2>
 
-**Lenguajes:** R, R Markdown, HTML, Python <br></br>
-**Software:** RStudio, VSCode <br></br>
+**Lenguajes:** R, R Markdown, HTML, Python   
+**Software:** RStudio, VSCode   
 **Librerias:** ggplot2
