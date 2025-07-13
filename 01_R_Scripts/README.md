@@ -2,7 +2,7 @@
 <h2>🤔 ¿Que encontrarás?</h2>
 En esta carpeta encontraras trabajos realizados para fines academicos que decidi compartir como punto inicial para comenzar mi portafolio personal
 
-<h2>Descripción Detallada</h2>
+<h2>⚙️ Descripción Detallada</h2>
 
 **Archivo 01:** En este archivo comencé a experimentar con el lenguaje R, usando operadores matematicos y logicos con ejemplos que comenté en el archivo.   
 **Archivo 02:** Aqui comencé a practicar realizando scripts con funciones para ingresar datos y automatizar procesos.   

@@ -2,7 +2,7 @@
 <h2>🤔 ¿Que encontrarás?</h2>
 Principalmente el desarrollo de scripts en python para el analisis de datos.
 
-<h2>Descripción Detallada</h2>
+<h2>⚙️ Descripción Detallada</h2>
 
 **Archivo 01:** Manejo de variables y operadores en Python.   
 **Archivo 02:** Un pequeño ejemplo de una función usando un manejo de erroes comunes.   
