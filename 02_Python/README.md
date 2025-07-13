@@ -4,6 +4,7 @@ Principalmente el desarrollo de scripts en python para el analisis de datos.
 
 <h2>⚙️ Descripción Detallada</h2>
 
+*Analisis de Datos:*   
 **Archivo 01:** Manejo de variables y operadores en Python.   
 **Archivo 02:** Un pequeño ejemplo de una función usando un manejo de erroes comunes.   
 **Archivo 03:** Se trata de un script que genera un archivo .csv con los datos ingresados con el usuario, use la libreria csv para poder crear y escribir en un archivo .csv.   
