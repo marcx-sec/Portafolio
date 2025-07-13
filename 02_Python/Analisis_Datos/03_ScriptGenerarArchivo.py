@@ -25,3 +25,5 @@ with open("salarios.csv", mode="w", newline="", encoding="utf-8") as archivo:
     escritor.writerow(["Nombre", "Departamento", "Mes de Salario", "Salario Bruto", "Porcentaje", "Salario Neto"])
     escritor.writerow([nombre, departamento, mes_de_salario, salario_bruto, porcentaje_de_deducciones, int(salario_neto)])
 print("Datos Guardados en archivo csv")
+
+# El archivo generado se encuentra con la enumeración 04 y la extensión .csv
